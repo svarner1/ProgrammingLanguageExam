@@ -68,6 +68,8 @@ Question c)
 Question d)
     The grammar for my programming lanugage is not ambiguous because there does not exist a sequence of tokens that can be derived by two different leftmost derivations
 
+Question e)
+    My lexical analyzer is the file lex.java
 Question g)
     Test files without errors: TestFile1.txt and TestFile3.txt
     Test file with lexical errors: TestFile2.txt
