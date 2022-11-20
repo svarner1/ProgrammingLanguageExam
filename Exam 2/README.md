@@ -74,6 +74,7 @@ Question e)
 Question g)
     Test files without errors: TestFile1.txt and TestFile3.txt
     Test file with lexical errors: TestFile2.txt
+    Test file with syntactical errors: TestFile4.txt
 
 Question h)
     - Screenshots of my LR parse table are titles Screenshot1.png, Screenshot2.png, and Screenshot3.png
