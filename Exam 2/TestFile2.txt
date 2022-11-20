@@ -1,0 +1,11 @@
+$   ' varva;
+    varvar = 3S;
+    ' 7varvar_;
+    varvar_ = 5;
+    &( 1S | 6S){
+        #(varvar > 0S){
+            7varvar_ = 7varvar_ + varvar;
+            varvar = varvar - 1S;
+        }
+    }
+?

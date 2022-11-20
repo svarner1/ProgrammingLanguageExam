@@ -1,0 +1,9 @@
+$  ' hello_;
+    ' goodbye;
+    ' result;
+    hello_ = 5S;
+    goodbye = 7S;
+    result = 0S;
+    &(1S | 3S){
+        result = result + (hello_ * goodbye);
+    }?
