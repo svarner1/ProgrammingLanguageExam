@@ -72,6 +72,7 @@ Question e)
     My lexical analyzer is the file lex.java
     
 Question g)
+    
     Test files without errors: TestFile1.txt and TestFile3.txt
     
     Test file with lexical errors: TestFile2.txt
