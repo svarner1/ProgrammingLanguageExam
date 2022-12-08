@@ -42,6 +42,7 @@ Question a)
             8 byte integer literal:     [0-9]+L
 
 Question b)
+    
     <program> --> `$`<stmt_list>`?`
     <stmt_list> --> <stmt> `;` {<stmt>`;`}
 
