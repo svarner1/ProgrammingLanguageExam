@@ -86,7 +86,6 @@ Question g)
 
     Test file with syntactical errors: TestFile4.txt
         The errors are as follows: 
-            Line 1 - The start character $ is not at the beginning
             Line 2 - The statemnt "varvar = 3S" is missing a semicolon
             Line 3 - The statement "' varvar_" is missing a semicolon
             Line 4 - The statement "varvar_ = 5S" is misssing a semicolon
