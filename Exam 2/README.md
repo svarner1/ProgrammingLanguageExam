@@ -74,7 +74,9 @@ Question d)
     leftmost derivations
 
 Question g)
+    
     Test files without errors: TestFile1.txt and TestFile3.txt
+    
     Test file with lexical errors: TestFile2.txt
         The errors are as follows:
             Line 1 - the identifier "varva" cannot be declared as having less than 6 characters
