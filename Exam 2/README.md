@@ -1,4 +1,5 @@
 Question a)
+    
     My regex representation:
         Addition                                        +
         Subtraction                                     -
@@ -64,10 +65,12 @@ Question b)
     <bfactor> --> `id`|`int_lit`|`(`<bex>`)`
 
 Question c)
-    The grammar for my language is pairwise disjoint. This is because for every rule there doesn't exist a nonterminal that has multiple rules for one terminal. Further, there aren't any rules that cause left hand recursion, in which a nonterminal calls itself as the first character.
+    The grammar for my language is pairwise disjoint. This is because for every rule there doesn't exist a nonterminal that has multiple rules for one
+    terminal. Further, there aren't any rules that cause left hand recursion, in which a nonterminal calls itself as the first character.
 
 Question d)
-    The grammar for my programming lanugage is not ambiguous because there does not exist a sequence of tokens that can be derived by two different leftmost derivations
+    The grammar for my programming lanugage is not ambiguous because there does not exist a sequence of tokens that can be derived by two different
+    leftmost derivations
 
 Question g)
     Test files without errors: TestFile1.txt and TestFile3.txt
