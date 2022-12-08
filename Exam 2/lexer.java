@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import static java.util.Map.entry;
 
-class lex{
+class lexer{
     //variables
     static int charClass;
     static ArrayList<char[]> listOfLexemes = new ArrayList<>();
@@ -417,9 +417,17 @@ class lex{
         }
     }
 
+    public static ArrayList returnTokens() {
+        return listOfTokens;
+    }
+
+    public static ArrayList returnLexemes() {
+        return listOfLexemes;
+    }
+
     //main() drives the lexical analyzer program. It returns a list of lexemes and a list of their corresponding token values from an input file
     public static void main(String[] args) throws IOException{
-        File f = new File("TestFile2.txt");
+        File f = new File("TestFile4.txt");
         fr = new FileReader(f);
         
         //determines each char's class
@@ -434,6 +442,7 @@ class lex{
         checkNumbersWithoutTypes();
         checkDigitsWithinVariables();
 
+        System.out.println("|---------------LEXICAL ANALYZER: ---------------|");
         System.out.println("List of lexemes:");
         for(char[] charArray: listOfLexemes){
             System.out.println(charArray);
