@@ -95,6 +95,7 @@ Question g)
             Line 8 - The statement "varvar = varvar - 1S" is missing a semicolon
 
 Question h)
+
     - Screenshots of my LR parse table: ParserFirstTable.png and ParserLRGrammar.png
     - Screenshots of 2 samples that produced parsing errors: ParserSample1.png and ParserSample2.png
     - Screenshots of 2 samples that successfully parses: ParserSample3.png and ParserSample4.png
